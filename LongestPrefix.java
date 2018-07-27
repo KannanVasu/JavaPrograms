@@ -4,6 +4,7 @@ class LongestPrefix
 	public static void main(String arg[])
 	{
 		Scanner sc=new Scanner(System.in);
+		System.out.println("input:");
 		int n=Integer.valueOf(sc.nextLine());
 		String[] s1=new String[n];
 		int min=0;
